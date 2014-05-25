@@ -1,0 +1,29 @@
+
+ul.menu { 
+	list-style:none;
+	position:fixed;
+	height:270px;
+	width:54px;
+	left:860px;
+	top:42px;
+}
+ul.menu li { 
+	display:block;
+}
+ul.menu li a { 
+	background:#555;
+	display:block;
+	padding:10px;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	outline:none;
+	border:2px solid #333;
+	text-align:center;
+}
+ul.menu li a:hover { 
+	background:#fff;
+}
+ul.menu li a img { 
+	border:none;
+}
